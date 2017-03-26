@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="install-ditasearch">
+    <title>Install</title>
+    <shortdesc/>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd>Install the plugin like any other DITA-OT plugin:</cmd>
+                <info>
+                    <codeblock>dita -install https://github.com/shaneataylor/ditasearch/archive/R1.zip</codeblock>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

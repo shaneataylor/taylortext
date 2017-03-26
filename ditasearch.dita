@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="ditasearch">
+ <title>DITASearch Plugin</title>
+ <shortdesc>The com.taylortext.ditasearch plugin for the DITA Open Toolkit generates a help index
+  and search box in your HTML5 output. </shortdesc>
+ <conbody>
+  <p>Unique features include:</p>
+  <ul>
+   <li>DITA-aware indexing, so semantic markup like <codeph>&lt;indexterm&gt;</codeph> and
+     <codeph>&lt;shortdesc&gt;</codeph> automatically increase the weight of terms in those
+    elements.</li>
+   <li>Uses a modified Porter2 stemming alorithm so variant forms of English words (running and ran,
+    for example) are considered equivalent.</li>
+   <li>Respects DITA <xmlelement>searchtitle</xmlelement> and <xmlatt>search</xmlatt> markup.</li>
+   <li>Includes a default synonym library that can be extended.</li>
+   <li>Automatically adds the search box and calls the search Javascript from your HTML5 topics (you
+    can turn this off with a parameter).</li>
+   <li>Search results are listed immediately below the search box, with intuitive keyboard
+    navigation (you don’t need to leave the current topic to view a page of search results).</li>
+  </ul>
+ </conbody>
+</concept>

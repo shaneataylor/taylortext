@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="whydoc">
+  <title>Why Do Documentation?</title>
+  <shortdesc>After all, isn't your software or process completely intuitive and
+    self-explanatory?</shortdesc>
+  <body>
+    <section>
+      <p>Aren't your technical trainers dedicated, talented, and hard working?</p>
+      <p>Don't your customers already have expert users on-site who can explain things to new
+        employees?</p>
+      <p>And don't you provide your customers with world-class help-desk service?</p>
+      <p>The answer, of course, is yes, yes, yes, yes, but...</p>
+      <p>All of these answers rely on <q>institutional memory</q> and having key people available
+        when answers are needed.</p>
+      <p>Of course your software or process is intuitive to those who designed it; and it is likely
+        intuitive to others with a similar cultural and educational background. But your customers
+        come from many backgrounds, and they need to know how to use your product even when the
+        procedures are not self-evident to them.</p>
+      <p>Technical trainers are important human assets, but they cannot be everywhere. Your
+        customers (and your employees) need access to information whether or not the technical
+        trainer is available.</p>
+      <p>Expert users are a wonderful resource for the customers who have them. But what about your
+        new customers? And what if the <q>expert user</q> leaves the company?</p>
+      <p>Although help-desk support often has the advantage of 24/7 availability, the help desk can
+        be swamped with calls that customers could more easily resolve with effective documentation.
+        And fewer calls means happier customers.</p>
+    </section>
+    <section>
+      <title>The Documentation Solution</title>
+      <p>Quality technical documentation solves these problems and saves money by increasing both
+        customer satisfaction and employee productivity.</p>
+      <ul>
+        <li>Finding answers in well-written, well-indexed documentation and online help files is
+          almost always faster than calling the help desk. And with shorter downtime to look for
+          answers, customer satisfaction with the product goes up.</li>
+        <li>Well-written <q>Quick-Start</q> guides get new customers off and running with your
+          product. They supplement and reinforce the information provided by your technical
+          trainers.</li>
+        <li>Professional documentation adds value to your customer deliverables and assures
+          customers that they have the tools they need to succeed with your product.</li>
+        <li>Accurate documentation for internal consumption — procedures, policies, configuration
+          settings, APIs and the like — improves productivity and insulates your company from the
+          loss of key employees.</li>
+        <li>Effective online help and documentation reduces unnecessary help-desk calls, freeing up
+          your employees to resolve more serious customer problems with greater efficiency.</li>
+      </ul>
+    </section>
+    <section>
+      <title>Why Use a Technical Writer?</title>
+      <p>Can't your developers write the documentation for the software they've coded? After all,
+        who knows the code better than they do?</p>
+      <p>Why can't your testers write the documentation? Or your engineers?</p>
+      <p>Simply put, developers, testers, and engineers all have the skillsets needed to perform
+        their jobs, and technical writers have the skills to write clear, accurate and useful
+        documentation and help files. You would no more ask a technical writer to code the user
+        interface than you would your podiatrist; so why ask your developers to write user
+        guides?</p>
+      <p>Often, those who create and test your product — software particularly — are too familiar
+        with processes to accurately document them. Developers, testers, and engineers may omit
+        basic steps which they perform a dozen times a day, not out of carelessness but because
+        familiarity does breed contempt, and <q>obvious</q> steps are left out either because they
+        are assumed to be obvious or because they are so automatic that the developer, tester, or
+        engineer does not even think about performing them anymore.</p>
+      <p>A good technical writer knows how to avoid that trap and always see the product clearly and
+        without the bias of assumptions or familiarity. He or she documents <i>all</i> procedures,
+        even the <q>obvious</q> ones, which are often essential to performing a task.</p>
+      <p>By virtue of his or her experience and training, a good technical writer knows how to see
+        your product from the user's point of view, and to provide the information the user needs.
+        Terms are explained, synonyms and cross-references are inserted, and the documentation is
+        well-indexed so users can quickly find the information they need.</p>
+      <p>A technical writer can clearly and concisely explain complex processes or concepts because
+        above all, he or she knows how to write well. </p>
+    </section></body>
+</topic>

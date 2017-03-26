@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="chunking">
+  <title>Topography, Muffins, and Chunking</title>
+  <shortdesc>Before I start a section hike, and sometimes just because I have the itch even when no
+    hike is planned, I look at the topo maps for one section or another where I want to go. It's not
+    just for fun — although it <i>is</i> fun — it's to break down a hike into manageable chunks of
+    terrain that I can walk each day. </shortdesc>
+  <body>
+    <p>This activity in technical communications is called <term>chunking</term>, and it's central
+      to topic-based authoring. Unfortunately, many writers get this wrong, and the tendency is
+      almost always to create too few chunks that are individually too large. <fig
+        outputclass="inset" frame="all">
+        <p>I understand this mistake well — I make it often when planning a hike.</p>
+      </fig></p>
+    <p>In topic-based writing, much attention is given to chunking content into topics, which is
+      important, but does not in itself go far enough. Chunking is a practice that should be applied
+      at multiple levels:<ol>
+        <li>Chunk guides into volumes or multiple deliverables using a logical organizing principle,
+          often corresponding to audience. <p>For example, your product might have a user's guide
+            for general-purpose users and an API reference for programmers, or you might deliver
+            separate guides for different installation platforms.</p></li>
+        <li>Chunk deliverables into <q>chapters</q> or topic groups as appropriate for the content,
+          usually based on goals. Often, chapters have multiple tasks that are used in some
+          combination to achieve a single broad goal.<note>Even in topic-based authoring, the
+            language of books is pervasive, partly because most of us still generate PDFs, and
+            partly also because terms like book and chapter provide a useful shorthand for the scope
+            of the content so contained.</note><p>For example, you might have different chapters for
+            installing, configuring, managing users, and creating reports, depending on the
+            functionality of the product you are documenting.</p></li>
+        <li>Chunk chapters or topic groups into individual topics that address a single atomic task
+          or concept. <p>For example, a chapter about managing users might have topics for creating
+            users, changing user permissions, and removing users.</p></li>
+        <li>Within topics, chunk your content into paragraphs, sections, lists, and tabular
+          information that are granular. <p>This helps your users in two ways — it makes your
+            content easy to scan for the needed conceptual or reference information, and it helps
+            users follow tasks exactly without missing key steps.</p></li>
+      </ol></p>
+    <p>Cookbooks are often excellent at chunking at the first three levels: typically, you will find
+      chapters devoted to appetizers, fish, meat, poultry, and desserts, each containing
+      self-contained topics that provide exactly the information required to prepare a single
+      dish.</p>
+    <p>Equally often, however, cookbooks fail miserably at the final level. Recipes are organized
+      into two sections: a list of ingredients, and the steps required to make the dish. The
+      ingredient list is usually done well; after all, it's a list of stuff you need, and how hard
+      is that? </p>
+    <p>The steps, however, are another story. It's my belief that most of why certain people believe
+      they <q>cannot cook</q> is that the procedures in many recipes are written so poorly that
+      simple tasks seem insurmountably difficult. A muffin recipe chosen at random from one of my
+      favorite cookbooks illustrates this well:</p>
+    <example>
+      <title>Original Steps</title>
+      <ol>
+        <li>Adjust oven rack to lower-middle position and heat oven to 375 degrees. Whisk flour,
+          baking powder, baking soda, and salt together in medium bowl; set aside.</li>
+        <li>Cream butter and sugar with electric mixer on medium-high speed until light and fluffy,
+          about 2 minutes. Add eggs, one at a time, beating well after each addition. Beat in
+          one-half of dry ingredients. Beat in one-third of yogurt. Beat in remaining dry
+          ingredients in two batches, alternating with yogurt, until incorporated.</li>
+        <li>Spray 12-cup muffin tin with vegetable cooking spray or coat lightly with butter. Divide
+          batter evenly among cups. Bake until muffins are golden brown, 25 to 30 minutes. Set on
+          wire rack to cool slightly, about 5 minutes. Remove muffins from tin and serve warm.</li>
+      </ol>
+    </example>
+    <p>I cannot fathom what principle the writer used to decide that this procedure is constituted
+      of only three steps. It might be prep work, making the batter, and baking, but even that
+      paradigm (as unhelpful as it is to the user) fails when you consider that combining the dry
+      ingredients is also part of making the batter, and coating the muffin tin is arguably prep
+      work. </p>
+    <p>If you chunk the procedure to each actual step (and put the prep work first), you get a
+      procedure that is easier to follow.</p>
+    <example>
+      <title>Chunked and Reorganized Steps</title>
+      <ol>
+        <li>Adjust oven rack to the lower-middle position.</li>
+        <li>Preheat oven to 375°.</li>
+        <li>Spray a 12-cup muffin tin with vegetable cooking spray or coat lightly with butter.</li>
+        <li>Combine the dry ingredients. <p>In a medium bowl, whisk flour, baking powder, baking
+            soda, and salt together; set aside.</p></li>
+        <li>Cream butter and sugar with electric mixer on medium-high speed until light and fluffy,
+          about 2 minutes. </li>
+        <li>Beat in eggs, one at a time, beating well after each addition.</li>
+        <li>Alternately beat in dry ingredients and yogurt in three batches, until incorporated.<ol>
+            <li>Beat in half of the dry ingredients, followed by a third of the yogurt.</li>
+            <li>Beat in half of the remaining dry ingredients, followed by half of the remaining
+              yogurt.</li>
+            <li>Beat in the rest of the dry ingredients, followed by the rest of the yogurt.</li>
+          </ol></li>
+        <li>Spoon batter into muffin tin.</li>
+        <li>Bake 25 to 30 minutes until muffins are golden brown. </li>
+        <li>Set on wire rack to cool slightly before serving, about 5 minutes. </li>
+      </ol>
+    </example>
+    <p>The lesson here is that chunking is important at all levels, not just when determining the
+      scope of a topic. Maybe I can apply this idea when I'm looking at the topo maps. It would be
+      nice to schedule rest stops for each day.</p>
+  </body>
+</topic>

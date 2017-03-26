@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="ditasearch-params">
+  <title>Build Parameters</title>
+  <shortdesc>As documented in the plugin itself, two build parameters are available:</shortdesc>
+  <refbody>
+    <section>
+      <title>args.ditasearch.configs</title>
+      <p>Specifies an optional search configuration file containing stopwords, stemming exceptions,
+        and synonyms. This file can be merged with or replace the default configuration.</p>
+    </section>
+    <section>
+      <title>args.ditasearch.nohtml</title>
+      <p>Omit adding the search HTML to topics if you are including it yourself, for example, in a
+        frameset or custom header and footer. The following values are supported:</p>
+      <ul>
+        <li><codeph>true</codeph> – Don’t add the search HTML to topics.</li>
+        <li><codeph>false</codeph> (default) – The build adds <codeph>&lt;div
+            class='ditasearch'&gt;</codeph> to the header and <codeph>&lt;script
+            src='{path}/ditasearch.js'&gt;</codeph> to the footer.</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

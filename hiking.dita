@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hiking">
+  <title>Hiking</title>
+  <shortdesc>I first started really to enjoy hiking and backpacking when I lived in Denver after
+    college. Currently, I'm chipping away at the Appalachian Trail one section hike at a
+    time.</shortdesc>
+  <body>
+    <fig frame="all">
+      <object width="552" height="350"
+        data="http://maps.google.com/maps/ms?msa=0&amp;msid=207809791770997706286.0004b30084eb16cbfa1c6&amp;ie=UTF8&amp;t=m&amp;ll=36.204391,-82.441406&amp;spn=1.551359,2.334595&amp;z=8&amp;output=embed">
+        <param name="scrolling" value="no"/>
+      </object>
+      <p>I've hiked only a fraction of the trail so far.</p>
+    </fig>
+      
+    
+  </body>
+</topic>

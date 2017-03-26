@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Relationship Tables</title>
+    <reltable>
+        <relheader>
+            <relcolspec/>
+            <relcolspec/>
+            <relcolspec linking="targetonly"/>
+        </relheader>
+        <relrow>
+            <relcell>
+                <topicref href="about_me.dita"/>
+            </relcell>
+            <relcell/>
+            <relcell>
+                <topicref href="shane_taylor_resume.dita">
+                    <topicmeta>
+                        <linktext>Resume</linktext>
+                    </topicmeta>
+                </topicref>
+            </relcell>
+        </relrow>
+    </reltable>
+</map>

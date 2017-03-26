@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>TaylorText</title>
+    <topicref href="index.dita">
+        <topicref keyref="ditasearch"/>
+        <topicref keyref="chunking"/>
+        <topicref keyref="hiking"/>
+        <topicref keyref="about-me"/>
+    </topicref>
+    <topicref href="techcomm.dita">
+        <topicref href="chunking.dita" keys="chunking"/>
+        <topicref href="whydoc.dita"/>
+        <topicref href="ditasearch.dita" keys="ditasearch">
+            <topicref href="install-ditasearch.dita"/>
+            <topicref href="use-ditasearch.dita"/>
+            <topicref href="ditasearch-params.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="hiking.dita" collection-type="sequence" keys="hiking">
+        <topicref href="hikes_2004-05.dita"/>
+        <topicref href="hikes_2005-06.dita"/>
+        <topicref href="hikes_2005-08.dita"/>
+        <topicref href="hikes_2006-09.dita"/>
+        <topicref href="hikes_2007-06.dita"/>
+        <topicref href="hikes_2008-05.dita"/>
+        <topicref href="hikes_2008-10.dita"/>
+        <topicref href="hikes_2009-08.dita"/>
+        <topicref href="hikes_2011-03.dita"/>
+        <topicref href="hikes_2011-11.dita"/>
+        <topicref href="hikes_species.dita"/>
+    </topicref>
+    <topicref href="about_me.dita" keys="about-me"/>
+    <topicgroup toc="no">
+        <topicref href="shane_taylor_resume.dita" navtitle="Resume" locktitle="yes"/>
+        <topicref href="images/headback.png" format="png" navtitle="headback.png"/>
+    </topicgroup>
+    <mapref href="reltables.ditamap"/>
+</map>

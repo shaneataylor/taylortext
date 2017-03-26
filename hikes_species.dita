@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="hikes_species">
+  <title>Selected Species Observed</title>
+  <shortdesc>A short list of some species I've seen on the AT.</shortdesc>
+  <body>
+    <section>
+      <title>Trees</title>
+      <ul>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=poplar&amp;curPageNum=1&amp;recnum=TS0119"
+            >Yellow Poplar (Tulip Tree)</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=ironwood&amp;curPageNum=2&amp;recnum=TS0187"
+            >Eastern Hophornbeam (Ironwood)</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?curGroupID=10&amp;display=1&amp;area=99&amp;searchText=oak&amp;curPageNum=6&amp;recnum=TS0069"
+            >Oak</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=sassafras&amp;curPageNum=1&amp;recnum=TS0116"
+            >Sassafras</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=laurel&amp;curPageNum=4&amp;recnum=TS0213"
+            >Mountain Laurel</xref></li>
+        <li>Rosebay Rhododendron<fig frame="all">
+                        <image alt="rosebay rhododendron" href="images/rbrhododendron.jpg"/>
+                    </fig></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=rhododendron&amp;curPageNum=3&amp;recnum=TS0502"
+            >Flame Azalea</xref></li>
+      </ul>
+    </section>
+    <section>
+      <title>Other Plants</title>
+      <ul>
+        <li>May-apple</li>
+        <li>Barren Strawberry</li>
+        <li>fern</li>
+      </ul>
+    </section>
+    <section>
+      <title>Animals</title>
+      <ul>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=mole&amp;curPageNum=2&amp;recnum=MA0049"
+            >Star-nosed Mole</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=garter&amp;curPageNum=6&amp;recnum=AR0121"
+            >Garter Snake</xref></li>
+        <li>unidentified small dark brown frog (body 1"-1.5") observed at two springs</li>
+        <li><xref scope="external" format="html"
+                        href="http://www.enature.com/fieldguides/detail.asp?allSpecies=y&amp;searchText=coal%20skink&amp;curGroupID=7&amp;lgfromWhere=&amp;curPageNum=1"
+                        >Coal Skink</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=squirrel&amp;curPageNum=16&amp;recnum=MA0118"
+            >Eastern Gray Squirrel</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=swallowtail&amp;curPageNum=9&amp;recnum=BU0118"
+            >Eastern Tiger Swallowtail</xref></li>
+        <li><xref scope="external" format="html" href="http://www.enature.com/fieldguide/showSpeciesGS.asp?sort=1&amp;curGroupID=99&amp;display=1&amp;area=99&amp;searchText=eastern+chipmunk&amp;curPageNum=1&amp;recnum=MA0135"
+            >Eastern Chipmunk</xref></li>
+      </ul>
+    </section>
+    
+    
+  </body>
+</topic>

@@ -1,0 +1,214 @@
+
+/*@import url("http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer");*/ 
+@import url("http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic"); 
+@import url("http://fonts.googleapis.com/css?family=Droid+Sans:400,700"); 
+@import url("http://fonts.googleapis.com/css?family=Ubuntu:500");
+
+body {
+    font-family: 'Droid Serif', serif;
+    /*font-family: 'IM Fell Great Primer', serif;*/
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-size: 12pt;
+    color: #333;
+    line-height: 1.5;
+    margin: 0px;
+}
+/* top-level body elements */
+body > * {
+    margin-left: 1in;
+    width: 5.75in;
+}
+
+div.body {
+}
+div.related-links {
+}
+div.relinfo, div.familylinks {
+    position: absolute;
+    top: 1.125in;
+    left: 7in;
+    width: 3in;
+}
+div.familylinks + div {
+    top: 3in;
+}
+ul.ullinks {
+    padding-left: 0pt;
+}
+a {
+    text-decoration: none;
+    color: #69C;
+}
+h1, h2, h3, h4 {
+    color: #666;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+h2.title.sectiontitle {
+    font-weight: 500;
+    color: #666;
+    font-variant:small-caps;
+}
+dt.dlterm {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+li.link a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+
+div.example {
+    border: 1pt solid #69C;
+    padding: 6pt;
+    background-color: #F0F8FF;
+}
+div.example > h2.sectiontitle {
+    margin-top: 0pt;
+}
+div.fig {
+    width: 5.75in;
+    text-align:center;
+    vertical-align:middle;
+}
+div.fig[class~="inset"] {
+    float: right;
+    width: 2in;
+    font-style: italic;
+    margin: 6pt 0pt 6pt 6pt;
+}
+div.figborder {
+    border: 1pt solid #ccc;
+    padding: 0pt;
+}
+div.fig > img {
+    max-width: 100%;
+}
+/*div.fig[class~="inset"] > img.image:active {
+    max-width: 4in;
+    border: 1pt solid #ccc;
+    margin-left: -50%;
+    margin-top: -50%;
+    z-index: 100;
+}
+*/
+div.fig > p {
+    margin: 6pt;
+    padding: 0pt;
+}
+/* 
+.fignone = no border, but put on all fig with no specified border
+expanse attribute not expressed in HTML
+* */
+
+/* resume formatting */
+body.resume {
+    line-height: 1.25;
+}
+@media print {
+    body.resume > * {
+        margin-left: 0.5in;
+        margin-right: 0.5in;
+        width: 7.25in; /* otherwise, 5.75in */
+    }
+}
+.resume ul[compact="compact"] {
+    padding-left: 0pt;
+}
+.resume ul[compact="compact"] > li {
+    display: inline;
+    white-space: nowrap;
+    
+}
+.resume ul[compact="compact"] > li:before {
+    content: "• ";
+    
+}
+.resume dl p {
+    margin: 0pt;
+}
+.resume dd[class~="data"] {
+    position: relative;
+    width: 1.75in;
+    height: 0in;
+    left: 4in;
+    color: #666;
+    font-size: 9pt;
+    padding-left: 9pt;
+    margin-left: 0pt;
+    top: -2em;
+}
+.resume dt.dlterm.company {
+    width: 4in;
+}
+.resume dd[class~="description"] {
+    margin: 0pt 0pt 9pt 0pt;
+    width: 4in;
+}
+@media print {
+    .resume dd[class~="data"] {
+        width: 1.75in;
+        left: 5.25in;
+    }
+    .resume dd[class~="description"], .resume dt.dlterm.company {
+        width: 5.25in;
+    }
+}
+.resume .ttfooter {
+    display: none;
+}
+
+/* header */
+div.ttheader {
+    background-color: #69C;
+    background-image: url("images/headback.png");
+    background-repeat: repeat-y;
+    margin: 0pt 0pt 18pt 0pt;
+    width: 100%;
+    height: 0.75in;
+    line-height: 1.5;
+}
+div.ttheader h1 {
+    color: white;
+    margin: 0pt;
+    padding-left: 6pt;
+    line-height: 1;
+    font-size: 36pt;
+}
+div.ttheader ul {
+    padding-left: 0pt;
+    margin: 0pt;
+}
+div.ttheader li {
+    display: inline-block;
+    
+}
+div.ttheader a {
+    display: inline-block;
+    color: #DDD;
+    padding: 0em 2em;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+div.ttheader a:hover {
+    color: white;
+}
+@media print {
+    div.ttheader {
+        display: none;
+    }
+    div.ttfooter {
+        display: none;
+    }
+    body {
+        font-size: 11pt;
+        margin-left: 0in;
+        line-height 1.25;
+    }
+}
+/* Footer */
+div.share {
+    margin-bottom: 1em;
+}
