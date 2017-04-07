@@ -1,4 +1,7 @@
-old
 .DS_Store
-out
+.htaccess
 build
+deps
+logs
+old
+out

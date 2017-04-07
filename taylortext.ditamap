@@ -21,19 +21,32 @@
         <topicref href="hikes_2004-05.dita"/>
         <topicref href="hikes_2005-06.dita"/>
         <topicref href="hikes_2005-08.dita"/>
+        <!--
         <topicref href="hikes_2006-09.dita"/>
         <topicref href="hikes_2007-06.dita"/>
         <topicref href="hikes_2008-05.dita"/>
         <topicref href="hikes_2008-10.dita"/>
         <topicref href="hikes_2009-08.dita"/>
+        -->
         <topicref href="hikes_2011-03.dita"/>
         <topicref href="hikes_2011-11.dita"/>
         <topicref href="hikes_species.dita"/>
     </topicref>
-    <topicref href="about_me.dita" keys="about-me"/>
+    <topicref href="about_me.dita" keys="about-me">
+        <topicref href="penelope_unweaving.xml">
+            <topicmeta>
+                <searchtitle>Penelope Unweaving: A Poem</searchtitle>
+                <shortdesc>A Poem</shortdesc>
+            </topicmeta>
+        </topicref>
+    </topicref>
     <topicgroup toc="no">
-        <topicref href="shane_taylor_resume.dita" navtitle="Resume" locktitle="yes"/>
-        <topicref href="images/headback.png" format="png" navtitle="headback.png"/>
+        <topicref href="Shane_Alan_Taylor.pdf" format="pdf" keys="resume">
+            <topicmeta>
+                <navtitle>Resume</navtitle>
+                <linktext>Resume</linktext>
+            </topicmeta>
+        </topicref>
     </topicgroup>
     <mapref href="reltables.ditamap"/>
 </map>

@@ -2,26 +2,27 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="use-ditasearch">
     <title>Use</title>
-    <shortdesc/>
+    <titlealts>
+        <searchtitle>Use DITASearch</searchtitle>
+    </titlealts>
+    <shortdesc>The DITASearch plugin does not create a new transformation type. Instead, it adds
+        processing to the HTML5 transformation type. This is intended to make it easier to implement
+        with either default HTML5 transformations or custom plugins based on HTML5.</shortdesc>
     <taskbody>
         <section>
-        <p>The DITASearch plugin does not create a new transformation type. Instead, it adds
-                processing to the HTML5 transformation type. This is intended to make it easier to
-                implement with either default HTML5 transformations or custom plugins based on
-                HTML5.</p>
-            <p><b>NOTE</b> This plugin does <i>not</i> support XHTML-based transformations.</p>
+            <note>This plugin does <i>not</i> support XHTML-based transformations.</note>
             <p>When you build your topics, you will see three changes in your output files:</p>
             <ol>
                 <li>The running header will include <codeph>&lt;div
                     class="ditasearch"/&gt;</codeph>.</li>
                 <li>The running footer will include <codeph>&lt;script
-                    src="{path}/ditasearch.js"&gt;&lt;/script&gt;</codeph>.</li>
-                <li>A new <codeph>ditasearch.js</codeph> file will be included in the root of your
-                    output directory.</li>
+                        src="{path}/ditasearch.js"&gt;&lt;/script&gt;</codeph>.</li>
+                <li>A new <filepath>ditasearch.js</filepath> file will be included in the root of
+                    your output directory.</li>
             </ol>
             <p>For simplicity, the search index and all needed code is included in the Javascript
                 file. When you display the help topics, the script adds the search box inside of
-                <codeph>&lt;div class="ditasearch"/&gt;</codeph>.</p>
+                    <codeph>&lt;div class="ditasearch"/&gt;</codeph>.</p>
         </section>
     </taskbody>
 </task>

@@ -14,9 +14,9 @@
             </relcell>
             <relcell/>
             <relcell>
-                <topicref href="shane_taylor_resume.dita">
+                <topicref keyref="resume">
                     <topicmeta>
-                        <linktext>Resume</linktext>
+                        <navtitle>Resume</navtitle>
                     </topicmeta>
                 </topicref>
             </relcell>

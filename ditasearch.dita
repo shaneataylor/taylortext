@@ -7,8 +7,8 @@
  <conbody>
   <p>Unique features include:</p>
   <ul>
-   <li>DITA-aware indexing, so semantic markup like <codeph>&lt;indexterm&gt;</codeph> and
-     <codeph>&lt;shortdesc&gt;</codeph> automatically increase the weight of terms in those
+   <li>DITA-aware indexing, so semantic markup like <xmlelement>indexterm</xmlelement> and
+     <xmlelement>shortdesc</xmlelement> automatically increase the weight of terms in those
     elements.</li>
    <li>Uses a modified Porter2 stemming alorithm so variant forms of English words (running and ran,
     for example) are considered equivalent.</li>

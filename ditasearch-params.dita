@@ -2,7 +2,10 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="ditasearch-params">
   <title>Build Parameters</title>
-  <shortdesc>As documented in the plugin itself, two build parameters are available:</shortdesc>
+  <titlealts>
+    <searchtitle>DITASearch Build Parameters</searchtitle>
+  </titlealts>
+  <shortdesc>As documented in the plugin itself, two build parameters are available.</shortdesc>
   <refbody>
     <section>
       <title>args.ditasearch.configs</title>
